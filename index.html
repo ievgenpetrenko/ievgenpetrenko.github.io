@@ -58,13 +58,13 @@
     header {
       background: #162330;
       color: white;
-      padding: 75px 0;
+      padding: 78px 0;
     }
 
     .hero {
       display: grid;
-      grid-template-columns: 1.55fr 0.75fr;
-      gap: 60px;
+      grid-template-columns: 1.5fr 0.8fr;
+      gap: 65px;
       align-items: center;
     }
 
@@ -97,12 +97,44 @@
 
     .hero-photo img {
       width: 100%;
-      max-width: 310px;
+      max-width: 350px;
       aspect-ratio: 4 / 5;
       object-fit: cover;
       object-position: center top;
       border-radius: 12px;
       box-shadow: 0 18px 45px rgba(0, 0, 0, 0.30);
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 14px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 11px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+      transition: 0.2s ease;
+    }
+
+    .button-primary {
+      background: white;
+      color: #162330;
+    }
+
+    .button-secondary {
+      border: 1px solid #ffffff;
+      color: white;
+      background: transparent;
+    }
+
+    .button:hover {
+      opacity: 0.82;
     }
 
     section {
@@ -118,6 +150,26 @@
     .intro {
       font-size: 20px;
       max-width: 900px;
+    }
+
+    .impact-section {
+      padding: 10px 0 55px;
+    }
+
+    .impact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .impact-item {
+      background: #ffffff;
+      border: 1px solid #dedede;
+      border-radius: 8px;
+      padding: 20px 18px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 16px;
     }
 
     .grid {
@@ -187,9 +239,17 @@
         grid-template-columns: repeat(2, 1fr);
       }
 
+      .impact-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
       .hero {
         grid-template-columns: 1.3fr 0.7fr;
         gap: 40px;
+      }
+
+      .hero-photo img {
+        max-width: 310px;
       }
 
       header h1 {
@@ -229,7 +289,7 @@
       }
 
       .hero-photo img {
-        max-width: 240px;
+        max-width: 260px;
       }
 
       header h1 {
@@ -257,6 +317,10 @@
       }
 
       .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .impact-grid {
         grid-template-columns: 1fr;
       }
     }
@@ -291,6 +355,26 @@
           to build capable organisations, resilient supply chains and executable
           nuclear programmes.
         </p>
+
+        <div class="hero-buttons">
+
+          <a
+            class="button button-primary"
+            href="https://www.linkedin.com/in/ievgen-petrenko-a1639522a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            class="button button-secondary"
+            href="mailto:petrenko.eugene@gmail.com"
+          >
+            Contact / Email
+          </a>
+
+        </div>
       </div>
 
       <div class="hero-photo">
@@ -325,6 +409,40 @@
         I add the greatest value where the regulator, technology provider, project
         organisation, EPC, supply chain and industry need to work as one system.
       </p>
+    </div>
+  </section>
+
+  <section class="impact-section">
+    <div class="container">
+
+      <div class="impact-grid">
+
+        <div class="impact-item">
+          20+ Years in Nuclear
+        </div>
+
+        <div class="impact-item">
+          Regulatory + EPC Experience
+        </div>
+
+        <div class="impact-item">
+          AP1000® Poland
+        </div>
+
+        <div class="impact-item">
+          International Nuclear Programmes
+        </div>
+
+        <div class="impact-item">
+          Teams up to 27 People
+        </div>
+
+        <div class="impact-item">
+          Industrial Capability Development
+        </div>
+
+      </div>
+
     </div>
   </section>
 
@@ -438,6 +556,13 @@
       <p>
         Open to selected senior leadership, programme integration,
         strategic advisory and nuclear industry cooperation opportunities.
+      </p>
+
+      <p>
+        Email:
+        <a href="mailto:petrenko.eugene@gmail.com">
+          petrenko.eugene@gmail.com
+        </a>
       </p>
 
       <p>
