@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ievgenpetrenko.github.io/sitemap.xml
