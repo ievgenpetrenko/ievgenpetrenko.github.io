@@ -314,6 +314,63 @@
       font-weight: bold;
     }
 
+
+    .insights-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      margin-top: 30px;
+    }
+
+    .insight-card {
+      background: #f7f6f2;
+      border: 1px solid #e2e2e2;
+      border-radius: 8px;
+      padding: 26px;
+      display: flex;
+      flex-direction: column;
+      min-height: 220px;
+    }
+
+    .insight-card h3 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 19px;
+      line-height: 1.35;
+    }
+
+    .insight-card h3 a {
+      color: #162330;
+      text-decoration: none;
+    }
+
+    .insight-card h3 a:hover,
+    .insight-card h3 a:focus {
+      text-decoration: underline;
+    }
+
+    .insight-card p {
+      margin: 0;
+    }
+
+    .insight-read {
+      display: inline-block;
+      margin-top: auto;
+      padding-top: 20px;
+      color: #162330;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .insight-read:hover,
+    .insight-read:focus {
+      text-decoration: underline;
+    }
+
+    .insights-link {
+      margin-top: 28px;
+    }
+
     .contact {
       background: #162330;
       color: white;
@@ -337,6 +394,10 @@
       }
 
       .impact-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .insights-grid {
         grid-template-columns: repeat(2, 1fr);
       }
 
@@ -418,6 +479,10 @@
       }
 
       .impact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .insights-grid {
         grid-template-columns: 1fr;
       }
     }
@@ -628,21 +693,121 @@
 
   <section id="insights">
     <div class="container">
-      <h2>Insights</h2>
+      <h2>Featured Insights</h2>
 
       <p class="intro">
-        I regularly publish professional insights on nuclear programme delivery,
-        industrial readiness, nuclear safety, regulation, localisation,
-        supply-chain capability and project interfaces.
+        Selected professional insights on nuclear programme delivery, industrial readiness,
+        nuclear quality, regulatory interfaces and the practical challenges of translating
+        nuclear requirements into execution.
       </p>
 
-      <p>
+      <div class="insights-grid">
+
+        <article class="insight-card">
+          <h3>
+            <a
+              href="https://www.linkedin.com/posts/ievgen-petrenko-a1639522a_terminology-trap-in-nuclear-projects-share-7467167155139014656--S4q"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Terminology Trap in Nuclear Projects
+            </a>
+          </h3>
+          <p>
+            Why familiar words can carry different regulatory, quality and engineering
+            meanings across organisations, standards and nuclear delivery environments.
+          </p>
+          <a
+            class="insight-read"
+            href="https://www.linkedin.com/posts/ievgen-petrenko-a1639522a_terminology-trap-in-nuclear-projects-share-7467167155139014656--S4q"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read on LinkedIn
+          </a>
+        </article>
+
+        <article class="insight-card">
+          <h3>
+            <a
+              href="https://www.linkedin.com/posts/ievgen-petrenko-a1639522a_nuclear-readiness-index-measuring-whether-ugcPost-7486808721952788481-6sqU"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Nuclear Readiness Index: Measuring Whether Industry Is Ready
+            </a>
+          </h3>
+          <p>
+            A practical view of nuclear readiness as demonstrated capability, not simply
+            certification, and the factors that determine whether organisations can execute nuclear scope.
+          </p>
+          <a
+            class="insight-read"
+            href="https://www.linkedin.com/posts/ievgen-petrenko-a1639522a_nuclear-readiness-index-measuring-whether-ugcPost-7486808721952788481-6sqU"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read on LinkedIn
+          </a>
+        </article>
+
+        <article class="insight-card">
+          <h3>
+            <a
+              href="https://www.linkedin.com/posts/ievgen-petrenko-a1639522a_nqa-1-vs-iso-19443-why-commercial-grade-ugcPost-7480605242414227456-I6Tn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              NQA-1 vs ISO 19443: Why Commercial Grade Dedication Matters
+            </a>
+          </h3>
+          <p>
+            The difference between quality-system alignment and the evidence needed to
+            accept commercial-grade items for safety-related nuclear applications.
+          </p>
+          <a
+            class="insight-read"
+            href="https://www.linkedin.com/posts/ievgen-petrenko-a1639522a_nqa-1-vs-iso-19443-why-commercial-grade-ugcPost-7480605242414227456-I6Tn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read on LinkedIn
+          </a>
+        </article>
+
+        <article class="insight-card">
+          <h3>
+            <a
+              href="https://www.linkedin.com/posts/ievgen-petrenko-a1639522a_safety-related-concrete-in-nrc-licensed-nuclear-share-7485990415565975552-ngOQ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Safety-Related Concrete in NRC-Licensed Nuclear Projects
+            </a>
+          </h3>
+          <p>
+            How safety classification changes expectations for materials, testing,
+            traceability, documentation and control across the construction evidence chain.
+          </p>
+          <a
+            class="insight-read"
+            href="https://www.linkedin.com/posts/ievgen-petrenko-a1639522a_safety-related-concrete-in-nrc-licensed-nuclear-share-7485990415565975552-ngOQ"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read on LinkedIn
+          </a>
+        </article>
+
+      </div>
+
+      <p class="insights-link">
         <a
           href="https://www.linkedin.com/in/ievgen-petrenko-a1639522a/"
           target="_blank"
           rel="me noopener noreferrer"
         >
-          Read my latest insights on LinkedIn
+          View all professional insights on LinkedIn
         </a>
       </p>
     </div>
