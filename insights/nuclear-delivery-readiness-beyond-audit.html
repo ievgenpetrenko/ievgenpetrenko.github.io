@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passing an Audit Does Not, by Itself, Demonstrate Nuclear Delivery Readiness | Ievgen Petrenko</title>
+  <meta name="description" content="An evidence-based approach to nuclear supplier readiness: scoped audits, demonstrated delivery capability, vertical-slice tests, four release gates and programme integration.">
+  <meta name="author" content="Ievgen Petrenko">
+  <meta name="date" content="2026-10-09">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="theme-color" content="#142633">
+  <link rel="canonical" href="https://ievgenpetrenko.github.io/insights/nuclear-delivery-readiness-beyond-audit.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Ievgen Petrenko">
+  <meta property="og:title" content="Passing an Audit Does Not, by Itself, Demonstrate Nuclear Delivery Readiness">
+  <meta property="og:description" content="From compliance evidence to demonstrated capability for a defined nuclear work scope.">
+  <meta property="og:url" content="https://ievgenpetrenko.github.io/insights/nuclear-delivery-readiness-beyond-audit.html">
+  <meta property="og:image" content="https://ievgenpetrenko.github.io/assets/nuclear-delivery-readiness-social.png">
+  <meta property="og:image:alt" content="Nuclear delivery readiness infographic: three levels from system exists to scope-specific capability">
+  <meta property="article:published_time" content="2026-10-09">
+  <meta property="article:modified_time" content="2026-10-09">
+  <meta property="article:section" content="Nuclear Quality, Supplier Readiness and Delivery Assurance">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Passing an Audit Does Not, by Itself, Demonstrate Nuclear Delivery Readiness">
+  <meta name="twitter:description" content="Three capability levels, one connected evidence chain, and an accountable release decision.">
+  <meta name="twitter:image" content="https://ievgenpetrenko.github.io/assets/nuclear-delivery-readiness-social.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://ievgenpetrenko.github.io/insights/nuclear-delivery-readiness-beyond-audit.html#article",
+        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://ievgenpetrenko.github.io/insights/nuclear-delivery-readiness-beyond-audit.html"},
+        "url": "https://ievgenpetrenko.github.io/insights/nuclear-delivery-readiness-beyond-audit.html",
+        "headline": "Passing an Audit Does Not, by Itself, Demonstrate Nuclear Delivery Readiness",
+        "alternativeHeadline": "From Compliance Evidence to Demonstrated Organisational Capability",
+        "description": "A practical framework for nuclear supplier delivery readiness: audit evidence, defined-scope capability, vertical-slice testing and accountable release decisions.",
+        "image": "https://ievgenpetrenko.github.io/assets/nuclear-delivery-readiness-social.png",
+        "thumbnailUrl": "https://ievgenpetrenko.github.io/assets/nuclear-delivery-readiness-social.png",
+        "datePublished": "2026-10-09",
+        "dateModified": "2026-10-09",
+        "inLanguage": "en",
+        "articleSection": "Nuclear Quality, Supplier Readiness and Delivery Assurance",
+        "about": ["Supplier readiness", "Programme integration", "Engineering verification", "Nuclear safety"],
+        "keywords": ["Nuclear Supplier Readiness", "Nuclear Quality Assurance", "Nuclear Supply Chain", "Supplier Qualification", "Audit", "ASME NQA-1", "ISO 19443", "CSA N299", "IAEA GSR Part 2", "Nuclear Delivery", "NCR CAPA", "Poland", "Evidence Traceability", "Work Package Readiness", "Owner EPC Supplier"],
+        "author": {"@id": "https://ievgenpetrenko.github.io/#person"},
+        "publisher": {"@id": "https://ievgenpetrenko.github.io/#person"},
+        "isPartOf": {"@id": "https://ievgenpetrenko.github.io/#website"},
+        "isBasedOn": "https://www.linkedin.com/posts/ievgen-petrenko-a1639522a_nuclearenergy-nuclearsafety-nuclearsupplychain-activity-7507378090604441600-y0zg"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://ievgenpetrenko.github.io/#person",
+        "name": "Ievgen Petrenko",
+        "url": "https://ievgenpetrenko.github.io/",
+        "jobTitle": "Senior Nuclear Engineering and Programme Delivery Professional",
+        "sameAs": ["https://www.linkedin.com/in/ievgen-petrenko-a1639522a/"]
+      },
+      {"@type": "WebSite", "@id": "https://ievgenpetrenko.github.io/#website", "url": "https://ievgenpetrenko.github.io/", "name": "Ievgen Petrenko", "inLanguage": "en"}
+    ]
+  }
+  </script>
+  <style>
+    :root { --navy:#142633; --ink:#1d2830; --cream:#f7f5f0; --orange:#c96b26; --line:#e0e3e3; --muted:#576572; --purple:#625576; --cyan:#b6dfde; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; background:var(--cream); color:var(--ink); line-height:1.72; }
+    a { color:#234c66; text-underline-offset:3px; }
+    a:hover { text-decoration-thickness:2px; }
+    .container { max-width:1110px; margin:0 auto; padding:0 30px; }
+    nav { background:white; border-bottom:1px solid #dce1e2; }
+    nav .container { display:flex; gap:26px; flex-wrap:wrap; align-items:center; padding-top:14px; padding-bottom:14px; }
+    nav a { color:var(--navy); text-decoration:none; font-size:14px; font-weight:700; }
+    nav a:hover, nav a:focus { text-decoration:underline; }
+    .hero { background:linear-gradient(118deg,#142633 0%,#203d4a 68%,#463f55 100%); color:white; padding:67px 0 64px; }
+    .hero-inner { max-width:940px; }
+    .eyebrow { color:#f5ba85; font-size:12px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; margin:0 0 16px; }
+    h1 { font-size:clamp(34px,4.8vw,53px); line-height:1.13; letter-spacing:-.028em; margin:0 0 24px; max-width:900px; }
+    .dek { color:#f0f1f2; font-size:clamp(18px,2vw,23px); max-width:890px; line-height:1.52; margin:0 0 23px; }
+    .meta { color:#d0d7dc; font-size:15px; }
+    .thesis { background:#eee9e1; border-bottom:1px solid #e0d8ce; }
+    .thesis .container { max-width:940px; padding-top:26px; padding-bottom:27px; }
+    .section-label { font-size:12px; color:#9c511c; font-weight:800; text-transform:uppercase; letter-spacing:.1em; }
+    .thesis p { margin:6px 0 0; font-size:20px; line-height:1.55; font-weight:700; }
+    main { background:#fff; }
+    article { max-width:910px; margin:0 auto; padding:59px 30px 76px; }
+    article p { font-size:18px; margin:0 0 21px; }
+    article h2 { font-size:30px; line-height:1.23; color:var(--navy); margin:52px 0 18px; letter-spacing:-.012em; }
+    article h3 { font-size:21px; line-height:1.29; color:var(--navy); margin:30px 0 11px; }
+    article ul, article ol { padding-left:27px; font-size:18px; margin:0 0 26px; }
+    article li { margin-bottom:13px; }
+    article strong { color:var(--navy); }
+    .highlight { background:#f8f6f2; border-left:4px solid var(--orange); margin:31px 0; padding:23px 25px; font-size:19px; line-height:1.52; font-weight:700; }
+    .levels { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:28px 0 30px; }
+    .level { border:1px solid var(--line); border-top:4px solid var(--purple); background:#fafafa; padding:20px 18px; border-radius:0 0 7px 7px; }
+    .level:nth-child(2) { border-top-color:var(--orange); }
+    .level:nth-child(3) { border-top-color:#2b7476; }
+    .level-number { color:#795e80; font-size:12px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; }
+    .level h3 { font-size:20px; margin:8px 0 12px; }
+    .level p { font-size:15px; line-height:1.53; margin:0 0 13px; }
+    .level .evidence { border-top:1px solid var(--line); padding-top:10px; color:#485563; font-size:14px; }
+    .workflow { background:var(--navy); padding:24px; margin:30px 0 16px; border-radius:9px; }
+    .workflow .section-label { color:#f0bb88; }
+    .stages { display:flex; flex-wrap:wrap; gap:7px; margin-top:13px; }
+    .stage { color:var(--navy); background:#dce9e9; border-radius:4px; padding:9px 10px; font-size:13px; font-weight:700; line-height:1.25; }
+    .arrow { align-self:center; color:#f0bb88; font-weight:800; }
+    .small-note { font-size:15px; color:var(--muted); }
+    .table-wrap { margin:26px 0 33px; overflow-x:auto; border:1px solid #dfe4e7; border-radius:7px; }
+    table { border-collapse:collapse; min-width:650px; width:100%; font-size:15px; line-height:1.52; }
+    th { background:#eaf0f1; color:var(--navy); font-size:14px; text-align:left; }
+    th, td { border-bottom:1px solid #e4e8e9; padding:13px 15px; vertical-align:top; }
+    tr:last-child td { border-bottom:0; }
+    .gates { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:15px; margin:24px 0; }
+    .gate { padding:19px; background:#faf9f6; border:1px solid var(--line); border-radius:7px; }
+    .gate span { display:block; color:#9b551f; text-transform:uppercase; letter-spacing:.07em; font-size:12px; font-weight:800; margin-bottom:7px; }
+    .gate strong { display:block; font-size:17px; margin-bottom:7px; }
+    .gate p { font-size:15px; line-height:1.55; margin:0; }
+    .executive-summary { background:#f2f3f2; border:1px solid #dce4e3; border-left:5px solid #1c7678; border-radius:7px; padding:22px 27px 16px; margin:30px 0 24px; }
+    .executive-summary h2 { margin:0 0 13px; font-size:24px; }
+    .executive-summary ul { margin:0 0 7px; font-size:17px; }
+    .framework-figure { margin:28px 0 35px; }
+    .framework-figure img { display:block; width:100%; height:auto; border:1px solid #d9dfdf; border-radius:10px; background:#f7f5f0; }
+    .framework-figure figcaption { margin-top:10px; color:#53616a; font-size:14px; line-height:1.6; }
+    .checkpoint { border-left:4px solid #2f7778; background:#f1f7f6; padding:17px 23px; margin:28px 0; font-size:17px; }
+    .checkpoint p { font-size:17px; margin:0; }
+    .crosscut { padding:14px 16px; border:1px solid #d4dce0; border-radius:5px; color:#263b4c; background:#f2f5f5; font-size:15px; margin:-2px 0 24px; }
+    .references { border-top:1px solid var(--line); padding-top:18px; margin-top:57px; }
+    .references h2 { font-size:24px; margin-top:15px; }
+    .references ul { font-size:15px; line-height:1.55; padding-left:21px; }
+    .references li { margin-bottom:13px; }
+    .byline { margin-top:42px; background:#f8f6f2; border:1px solid #e2ded8; padding:25px; border-radius:8px; }
+    .byline h2 { font-size:23px; margin:0 0 9px; }
+    .byline p { font-size:16px; margin-bottom:15px; }
+    .actions { display:flex; flex-wrap:wrap; gap:10px; }
+    .action { display:inline-block; border-radius:5px; padding:10px 15px; text-decoration:none; font-size:14px; font-weight:700; }
+    .action.primary { color:white; background:var(--navy); }
+    .action.secondary { color:var(--navy); border:1px solid var(--navy); }
+    footer { background:#111e27; text-align:center; color:#c3c6c8; padding:24px; font-size:14px; }
+    @media(max-width:740px) { .container { padding-left:22px; padding-right:22px; } nav .container {gap:14px;} .hero {padding:52px 0;} article{padding:40px 22px 65px;} article h2{font-size:26px;} article p,article ul,article ol{font-size:17px;} .levels{grid-template-columns:1fr;} .gates{grid-template-columns:1fr;} .thesis p{font-size:18px;} .workflow {padding:18px;} .stage{font-size:12px;} .executive-summary{padding:19px 18px;} }
+    @media(prefers-reduced-motion:reduce) { html{scroll-behavior:auto;} }
+  </style>
+</head>
+<body>
+  <nav aria-label="Primary navigation"><div class="container">
+    <a href="../">Home</a><a href="../#about">About</a><a href="../#expertise">Expertise</a>
+    <a href="../#experience">Experience</a><a href="../#insights">Insights</a><a href="../#contact">Contact</a>
+  </div></nav>
+  <header class="hero"><div class="container hero-inner">
+    <div class="eyebrow">Nuclear Quality / Supplier Readiness / Programme Delivery</div>
+    <h1>Passing an Audit Does Not, by Itself, Demonstrate Nuclear Delivery Readiness</h1>
+    <p class="dek">From compliance evidence to demonstrated organisational capability.</p>
+    <div class="meta">By Ievgen Petrenko | 9 October 2026 | Technical &amp; Strategic Insight</div>
+  </div></header>
+  <aside class="thesis" aria-label="Central argument"><div class="container">
+    <div class="section-label">Central argument</div>
+    <p>Audit results matter. But assurance becomes reliable only when the scope of the audit, the evidence sampled and the organisation's ability to execute a particular work package are aligned.</p>
+  </div></aside>
+  <main><article>
+    <p>For a company entering the nuclear supply chain, a successful audit is an important milestone. A robust nuclear quality management system, qualified personnel and verifiable controls are not optional where required. They provide the basis for confidence in products and services whose failure could affect safety.</p>
+    <p>Yet a positive audit conclusion is not necessarily a complete answer to a different question: <strong>Can this organisation deliver the specific nuclear scope, at the required pace, while controlling interfaces, changes, subcontractors, acceptance criteria and records?</strong></p>
+    <p>This is not an argument against audits. It is an argument for connecting assurance to actual delivery conditions.</p>
+    <section class="executive-summary" aria-label="Executive summary">
+      <h2>Executive summary</h2>
+      <ul>
+        <li><strong>Audit evidence has a defined scope.</strong> Read its conclusion alongside what was sampled, at what facility, with which personnel and against which requirements.</li>
+        <li><strong>Delivery capability is scope-specific.</strong> One successful demonstration does not prove capacity for larger volumes, unfamiliar interfaces or a compressed schedule.</li>
+        <li><strong>Readiness requires an accountable decision.</strong> The purchaser, EPC and supplier must know who can release work, which gaps must close first and how performance will be monitored.</li>
+      </ul>
+    </section>
+
+    <h2>1. The distinction is about scope, not whether audits are useful</h2>
+    <p>A professionally performed supplier audit is not simply a documentation review. Depending on its scope and criteria, it can examine work in progress, competence, procurement flow-down, design control, inspections, nonconformance management and the effectiveness of corrective actions. It can uncover practical weaknesses and provide substantial evidence of implementation.</p>
+    <p>But an audit has boundaries: defined criteria, sampled activities, an assessment period and a scope of supply. A company may demonstrate compliance with applicable requirements and still face execution risks in a new or larger work package, a different facility, a changed supply chain or an unfamiliar contract.</p>
+    <div class="highlight">The right question is not “Audit or readiness assessment?” It is “What has the assurance activity demonstrated, and what remains unproven for the work we intend to award?”</div>
+    <p>Where a suitably scoped supplier audit already covers execution capability, there is no value in duplicating it. Where material gaps remain, a targeted readiness review, witnessed demonstration or representative work-package test can close those gaps within the existing supplier qualification and oversight arrangements.</p>
+
+    <h2>2. Start with the applicable nuclear requirements</h2>
+    <p>Nuclear projects do not use a single universal quality standard. The applicable framework flows from legislation, the licensing and design basis, codes and standards, the procurement specification and contractual commitments. <strong>ASME NQA-1, ISO 19443 and the CSA N299 series serve different assurance contexts and should not be treated as interchangeable.</strong> Neither certification nor an audit under one framework automatically establishes conformity to another.</p>
+    <p>For example, ASME NQA-1 addresses quality assurance requirements for nuclear facility applications. ISO 19443 extends ISO 9001 requirements for organisations providing products and services important to nuclear safety. The CSA N299 series defines categories of supplier quality assurance programme requirements in the Canadian context. Their practical relevance depends on what the project has actually invoked.</p>
+    <p>IAEA GSR Part 2 provides a wider management-for-safety perspective, including competence, a graded approach, supply-chain management, safety culture, assessment and improvement. These are useful principles for a delivery-readiness discussion, but a project must still establish its specific binding requirements.</p>
+    <p>A graded approach is essential. Assessment depth should reflect the safety significance, technical novelty, complexity, supplier history, consequence of failure and contractual risk of the assigned work. It should not impose the same assurance burden on every purchase or service.</p>
+
+    <h2>3. Three levels of demonstrated capability</h2>
+    <p>The following three-level model is a practical assessment framework, <strong>not a new standard, certificate or regulatory classification</strong>. It provides a common language for procurement, engineering, construction and quality teams to discuss supplier readiness.</p>
+    <div class="levels" aria-label="Three nuclear delivery readiness levels">
+      <section class="level"><div class="level-number">Level 1</div><h3>System exists</h3><p>Applicable requirements are translated into controlled processes, responsibilities, competence requirements and planned verification.</p><p class="evidence"><strong>Typical evidence:</strong> approved procedures, a requirements matrix, training and qualification criteria, procurement controls.</p></section>
+      <section class="level"><div class="level-number">Level 2</div><h3>System works</h3><p>People understand and consistently apply the controls in sampled real activities, and deviations generate appropriate investigation and action.</p><p class="evidence"><strong>Typical evidence:</strong> witnessed work, interviews, inspection results, traceability, NCR and CAPA effectiveness.</p></section>
+      <section class="level"><div class="level-number">Level 3</div><h3>Delivery capability demonstrated for a defined scope</h3><p>Engineering, procurement, resources, interfaces, subcontractors, execution, verification and records work together for the proposed package.</p><p class="evidence"><strong>Typical evidence:</strong> representative package, capacity assessment, owned interfaces, acceptance dossier and release criteria.</p></section>
+    </div>
+    <p>These levels are cumulative, not alternative paths. A documented system without effective implementation is weak. Effective implementation without adequate capacity or control of the proposed scope leaves delivery risk unresolved.</p>
+    <figure class="framework-figure">
+      <a href="../assets/nuclear-readiness-three-levels.svg" target="_blank" rel="noopener noreferrer" aria-label="Open the three-level readiness diagram at full size">
+      <img src="../assets/nuclear-readiness-three-levels.svg" width="1200" height="570" loading="lazy" decoding="async" alt="Three nuclear supplier readiness levels: system exists, system works and scope-specific delivery, with safety culture, requirements, changes, surveillance and records operating across all levels."></a>
+      <figcaption>Figure 1. A proposed management framework, not a formal qualification class or certification scheme. Applicable contract and regulatory requirements always prevail. Select the figure to enlarge it on smaller screens.</figcaption>
+    </figure>
+    <p><strong>A successful representative package is evidence, not a capacity guarantee.</strong> Readiness must be bounded by the actual work scope, location, equipment, qualified personnel, production rate, subcontractors, interfaces and execution conditions. A change to any of these assumptions can trigger reassessment. Level 3 is sustained through performance, not permanently awarded at contract signature.</p>
+
+    <h2>4. Test a vertical slice, not a collection of isolated documents</h2>
+    <p>A particularly informative assessment technique is to trace one real or representative work package through its full sequence. For new entrants, a controlled demonstration or previously executed comparable package can be used before actual safety-significant execution. The objective is to expose where requirements, decisions and evidence may be lost between organisations.</p>
+    <div class="workflow" aria-label="Illustrative vertical slice through a nuclear work package">
+      <div class="section-label">Vertical-slice assurance</div>
+      <div class="stages">
+        <span class="stage">Requirement</span><span class="arrow">→</span>
+        <span class="stage">Engineering</span><span class="arrow">→</span>
+        <span class="stage">Procurement</span><span class="arrow">→</span>
+        <span class="stage">Supplier</span><span class="arrow">→</span>
+        <span class="stage">Execution</span><span class="arrow">→</span>
+        <span class="stage">Inspection / Test</span><span class="arrow">→</span>
+        <span class="stage">Acceptance</span><span class="arrow">→</span>
+        <span class="stage">Records</span>
+      </div>
+    </div>
+    <div class="crosscut"><strong>Across the entire chain:</strong> configuration and design changes, NCR and authorised technical dispositions, interface control, traceability, surveillance and safety culture. These are continuous controls, not a late sequential stage.</div>
+    <p class="small-note">The sequence is illustrative. Mandatory hold points, independence, approvals, inspections and record obligations must follow the invoked code, specification and approved arrangements.</p>
+    <h3>An illustrative test: a welded assembly for a system important to safety</h3>
+    <p>Take a fabricated welded assembly intended for a system classified as important to safety. The example is deliberately generic: the applicable design and construction code, inspection regime and acceptance criteria depend on the item's classification, jurisdiction and contract. A useful vertical-slice demonstration would trace:</p>
+    <ol>
+      <li><strong>Design authority and requirement:</strong> agreed design basis, applicable code edition, classification, approved drawings, tolerances and current revision are identified before fabrication planning.</li>
+      <li><strong>Purchase order and sub-tier flow-down:</strong> material specification, reporting obligations, surveillance rights and deliverable documentation reach every relevant supplier.</li>
+      <li><strong>Materials and fabrication:</strong> incoming material identity and certificates can be connected to the correct item and heat or batch, with suitably qualified procedures and personnel where required.</li>
+      <li><strong>Inspection and testing:</strong> the approved inspection and test plan identifies required hold and witness points, qualified inspection personnel, appropriate equipment controls and evidence of acceptance.</li>
+      <li><strong>Changes and deviations:</strong> substitutions, drawing changes and nonconformances are assessed and dispositioned by the authorised roles before affected work proceeds or is released.</li>
+      <li><strong>Acceptance and lifetime records:</strong> the final record set supports item identity, applicable revision, technical compliance, acceptance decision, traceability and handover obligations.</li>
+    </ol>
+    <p>A vertical slice can reveal a gap that functional checklists miss: for example, a technically satisfactory weld supported by a material record that cannot be connected to the installed item, or a changed drawing that was not communicated to the sub-tier fabricator. Either can create re-verification, rework, acceptance or installation risk.</p>
+    <p>The purpose is not to prescribe welding activities or substitute for the applicable code. It is to see whether work execution and acceptance evidence survive the passage between engineering, supply chain, production, inspection and the receiving organisation.</p>
+    <p>If the material is correct but its origin cannot be demonstrated, if a drawing revision was not transmitted to a subcontractor, or if a nonconformance was closed without the necessary technical disposition, the issue is not merely administrative. Acceptance and subsequent use may require investigation, additional verification, rework or other authorised disposition.</p>
+    <div class="highlight">Work completed is not always work demonstrated. In nuclear delivery, technical conformity and objective evidence must support the same conclusion.</div>
+
+    <h2>5. The assessment must look beyond the quality department</h2>
+    <p>A delivery-readiness review should integrate engineering, procurement, operations, construction, quality, project controls and management. Nuclear safety and contractual compliance cannot be assigned to a single function after the work has already been organised.</p>
+    <div class="table-wrap"><table aria-label="Assessment domains and sample evidence">
+      <thead><tr><th>Domain</th><th>Practical test</th><th>Evidence to examine</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Requirements &amp; interfaces</strong></td><td>Does the current requirement reach the correct decision owner and work instruction?</td><td>Traceability, design revision status, interface register, approved specifications.</td></tr>
+        <tr><td><strong>Competence &amp; safety culture</strong></td><td>Can individuals perform the assigned task and challenge unsafe or unclear instructions?</td><td>Role-specific qualifications, observation, interviews, stop-work expectations, reporting behaviour.</td></tr>
+        <tr><td><strong>Supply chain &amp; capacity</strong></td><td>Are sub-tier controls and resources sufficient for the proposed scope and schedule?</td><td>Supplier evaluations, commitments, workload, make/buy boundaries, procurement records.</td></tr>
+        <tr><td><strong>Execution &amp; verification</strong></td><td>Can teams demonstrate use of approved instructions, inspection points and acceptance criteria?</td><td>Work packages, checklists, test data, calibrated equipment, inspection and release records.</td></tr>
+        <tr><td><strong>Change &amp; nonconformance</strong></td><td>Are technical decisions and dispositions authorised and communicated before affected work proceeds?</td><td>Change logs, NCR, corrective actions, effectiveness checks, configuration baseline.</td></tr>
+        <tr><td><strong>Evidence &amp; handover</strong></td><td>Can records be linked to the correct item, work scope, revision and acceptance decision?</td><td>Traceable records, data books, document indexes, review approvals, retention arrangements.</td></tr>
+      </tbody>
+    </table></div>
+    <p>The table is a starting point. A software, civil works, instrumentation, laboratory or heavy manufacturing contract will require a different technical sample and different competence checks. The important point is to test the assigned work, rather than scoring the organisation against an abstract ideal.</p>
+    <h3>Capability and capacity are not the same test</h3>
+    <p>A successful prototype, first article or sample package shows something important about technical capability. Delivery capacity asks a different question. Can the company repeat that performance across the contracted volume, shifts and milestones without losing qualified staff, access to specialised equipment, independent inspections or control of sub-tier suppliers?</p>
+    <p>Capacity evidence may include a resource-loaded production plan, validated lead times, competing orders, long-lead materials, skill coverage, contingency for rework and realistic turnover-documentation throughput. Evidence must be proportionate to the scope and risks; it need not become an unmanageable reporting exercise.</p>
+
+    <h2>6. Turn findings into a defensible readiness decision</h2>
+    <p>The output should be a concise, evidence-based readiness map, not a single overall percentage presented as if it establishes nuclear suitability. It should identify the scoped work, applicable criteria, verified strengths, limitations of the sample, open gaps, consequences, owners, dates and objective evidence required for closure.</p>
+    <div class="gates">
+      <section class="gate"><span>Gate 1 / scope baseline</span><strong>Requirements understood</strong><p>Evidence: applicable codes, classification, purchase requirements, approved scope and named interfaces. Decision: the authorised procurement and technical roles confirm the assessment basis.</p></section>
+      <section class="gate"><span>Gate 2 / capability evidence</span><strong>Controls demonstrated</strong><p>Evidence: properly scoped audit findings, observed execution, qualified people and representative records. Decision: designated assurance and technical authorities identify proven and unproven capabilities.</p></section>
+      <section class="gate"><span>Gate 3 / work release</span><strong>Scope ready for release</strong><p>Evidence: closed mandatory gaps, approved work documents, realistic capacity, hold points and sub-tier arrangements. Decision: the contractually authorised role releases the specific activity.</p></section>
+      <section class="gate"><span>Gate 4 / execution monitoring</span><strong>Performance sustained</strong><p>Evidence: surveillance results, change and NCR closure, output quality, milestones and handover records. Decision: the responsible roles continue, restrict, pause or requalify as justified.</p></section>
+    </div>
+    <h3>Three possible outcomes for a defined work package</h3>
+    <div class="table-wrap"><table aria-label="Illustrative readiness decisions">
+      <thead><tr><th>Outcome</th><th>Meaning</th><th>Decision and evidence</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Ready</strong></td><td>Relevant mandatory requirements and release criteria have been satisfied.</td><td>Record scope, approving authority, evidence reviewed and any continuing surveillance.</td></tr>
+        <tr><td><strong>Ready with defined restrictions</strong></td><td>Only specified activity can proceed under documented controls, where permitted by applicable requirements and authorised decision rights.</td><td>Identify restricted work, unresolved items, owner, deadline and required evidence before the next release point.</td></tr>
+        <tr><td><strong>Not ready for the defined scope</strong></td><td>Material gaps prevent the relevant activity from being released.</td><td>Do not commence the affected activity until the mandatory gaps are properly closed and the authorised release is recorded.</td></tr>
+      </tbody>
+    </table></div>
+    <p class="small-note">These outcomes are illustrative management labels, not substitutes for required regulatory, code, contractual, QA or technical approvals. A restricted decision can never waive mandatory hold points, code requirements or safety obligations.</p>
+    <p>Not every finding requires stopping all activity. The proper response depends on safety significance, the applicable requirements, work status and authorised decision rights. Some actions may be closed before procurement, others before fabrication or installation, and some risks may require enhanced surveillance or a controlled restriction. There must be no bypass of mandatory hold points or release criteria.</p>
+    <h3>Who owns the decision?</h3>
+    <p>Readiness can only be managed if responsibility follows the contract and the actual technical authority. The following allocation is illustrative; it must be tailored to the procurement model, licence conditions and delegated decision rights.</p>
+    <div class="table-wrap"><table aria-label="Illustrative owner EPC supplier responsibilities">
+      <thead><tr><th>Organisation</th><th>Typical responsibility</th><th>Critical interface</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Owner / licensee</strong></td><td>Establish required outcomes, applicable owner requirements and oversight; retain responsibilities assigned by law and the licensing framework.</td><td>Clear acceptance basis, technical authority, owner decisions and requirements flow-down.</td></tr>
+        <tr><td><strong>EPC / integrator</strong></td><td>Coordinate allocated design, procurement, construction and supplier interfaces; maintain integration planning and applicable verification arrangements.</td><td>Design maturity, change management, work sequencing, release points and turnover integration.</td></tr>
+        <tr><td><strong>Supplier / sub-tier</strong></td><td>Demonstrate the capability and resources for its assigned scope; execute controlled work and produce traceable acceptance evidence.</td><td>Qualified people, controlled production, supplier oversight, records and timely escalation of deviations.</td></tr>
+      </tbody>
+    </table></div>
+    <p><strong>A supplier cannot close an interface that the purchaser has failed to define.</strong> Nor can an EPC organisation reliably sequence fabrication or installation when design decisions, acceptance criteria or authority boundaries remain unresolved. Readiness is therefore a shared delivery-governance issue, not a quality-department score.</p>
+
+    <h2>7. The programme-level consequences of an unproven capability</h2>
+    <p>At programme level, supplier readiness is not simply a quality assurance concern. It is an engineering, procurement, construction and integration risk. An unresolved capability gap may affect design interfaces, manufacturing release, inspection, field installation and final acceptance across several organisations.</p>
+    <p>Consider a hypothetical package in which material identification is lost before manufacturing acceptance. What begins as one supplier's record problem can require engineering review, additional verification, rescheduling of a downstream workface and revision of the project turnover sequence. If the affected item is on a critical path, the consequence can extend beyond that purchase order. The actual impact will depend on the package and recovery options.</p>
+    <p>That chain matters for schedule credibility as much as for conformity. It is better to uncover limitations before an order is committed or safety-significant execution starts than to discover them after downstream interfaces have been built around an assumption of readiness.</p>
+    <div class="checkpoint"><p><strong>Programme-level test:</strong> Can the project demonstrate that each critical handover has a named owner, current technical baseline, defined acceptance evidence and a credible recovery path if an upstream package is restricted?</p></div>
+
+    <h2>8. Why this matters to Poland and European nuclear programmes</h2>
+    <p>Industrial participation is an important objective of nuclear new build. But bringing strong conventional engineering and manufacturing companies into the nuclear market requires more than registering them on supplier lists. Projects need a systematic way to identify which capabilities already exist, which require adaptation and how progress will be verified against actual packages of work.</p>
+    <p>A practical, graded readiness assessment supports this transition without treating every industrial company as if it were a reactor vendor. It can protect schedule by exposing missing interfaces early, support supplier development with clear closure evidence, and reduce the risk that incomplete documentation emerges only during acceptance or handover.</p>
+    <p>The same approach matters for established suppliers entering new projects or technologies. Prior experience is valuable evidence, but project-specific requirements, design changes and new organisational boundaries still need review. For standardised multi-unit projects and SMR supply chains, repeatability becomes a strategic advantage only if configuration, resources and acceptance evidence remain controlled between successive packages.</p>
+    <h3>Five questions for programme leadership</h3>
+    <ol>
+      <li>What did the audit actually demonstrate for the package we plan to award?</li>
+      <li>Which technical, organisational or capacity assumptions remain untested?</li>
+      <li>Who owns the design, contract and acceptance interfaces across organisations?</li>
+      <li>What objective evidence is required before each authorised release point?</li>
+      <li>Which indicators will tell us that supplier capability is deteriorating during delivery?</li>
+    </ol>
+    <p><strong>The purpose is not to add another barrier to the nuclear supply chain. It is to make qualification, execution and acceptance part of one coherent assurance strategy.</strong></p>
+
+    <h2>Closing perspective: readiness is not a certificate</h2>
+    <p>An audit can be an excellent demonstration of system implementation. It can also identify weaknesses that matter far beyond the quality function. But its conclusions must be read in the light of its actual scope and evidence.</p>
+    <p>Delivery readiness is a proposition about a defined organisation, a defined work package, a defined set of requirements, resources and interfaces, and a defined point in time. It is strengthened by credible evidence before work starts and confirmed by controlled performance as work proceeds. Where conditions materially change, the readiness conclusion must be revisited.</p>
+    <p>The question for a nuclear programme is therefore not only: <em>Do we have a procedure, and have we passed the audit?</em></p>
+    <p><strong>It is: Can we execute the specified work, manage its interfaces and changes, and demonstrate with reliable evidence that the required acceptance criteria have been met?</strong></p>
+    <p>That is where nuclear quality assurance becomes a connected part of delivery confidence, alongside engineering, programme governance and clear technical accountability.</p>
+
+    <section class="references" aria-label="Standards and sources">
+      <h2>Standards, sources and further reading</h2>
+      <ul>
+        <li>International Atomic Energy Agency, <a href="https://nucleus-apps.iaea.org/nss-oui/Content/Index?SearchText=gsr+part+2+introduction&amp;collectionid=m_f816f75b-4a2f-47a0-8578-91ceb427bc8b&amp;type=PublishedCollection" target="_blank" rel="noopener noreferrer"><em>Leadership and Management for Safety</em> (GSR Part 2)</a>. See requirements concerning graded approach, resources, supply chain, safety culture, assessment and improvement.</li>
+        <li>American Society of Mechanical Engineers, <a href="https://www.asme.org/codes-standards/find-codes-standards/quality-assurance-requirements-for-nuclear-facility-applications" target="_blank" rel="noopener noreferrer"><em>NQA-1: Quality Assurance Requirements for Nuclear Facility Applications</em></a>. Apply the project-invoked edition and requirements.</li>
+        <li>International Organization for Standardization, <a href="https://www.iso.org/standard/64908.html" target="_blank" rel="noopener noreferrer"><em>ISO 19443:2018</em></a>, with Amendment 1:2024, for suppliers of items and services important to nuclear safety. The standard is under revision as of October 2026.</li>
+        <li>Canadian Nuclear Safety Commission, <a href="https://www.cnsc-ccsn.gc.ca/eng/reactors/regulating-nuclear-reactors-power-plants/convention-on-nuclear-safety/ninth-report/" target="_blank" rel="noopener noreferrer"><em>Canadian National Report for the Convention on Nuclear Safety</em></a>, referencing the CSA N299 series of supplier QA standards.</li>
+        <li>International Atomic Energy Agency, <a href="https://www-pub.iaea.org/MTCD/Publications/PDF/P1703_web.pdf" target="_blank" rel="noopener noreferrer"><em>Industrial Involvement to Support a National Nuclear Power Programme</em></a> (NG-T-3.4, 2016).</li>
+        <li>International Atomic Energy Agency, <a href="https://nucleus.iaea.org/sites/connect/MSNpublic/Pages/nct/site/bid/selection/pre-qualification.html" target="_blank" rel="noopener noreferrer"><em>Nuclear Contracting Toolkit: Supplier Pre-qualification</em></a>. Discusses technical, organisational and financial capability as well as early identification of risks.</li>
+        <li>International Atomic Energy Agency, <a href="https://nucleus.iaea.org/sites/neb/Published%20Collections/m_bbf814e3-c6ac-4fa5-b11a-36184c23b75b/m_bbf814e3-c6ac-4fa5-b11a-36184c23b75b__2_0.Html" target="_blank" rel="noopener noreferrer"><em>Procurement Engineering and Supply Chain Guidelines in Support of Operation and Maintenance of Nuclear Facilities</em></a> (NP-T-3.21, 2016). Primarily addresses operating facilities, with transferable procurement and supply-chain principles; it is not a new-build construction standard.</li>
+        <li>Ievgen Petrenko, <a href="https://www.linkedin.com/posts/ievgen-petrenko-a1639522a_nuclearenergy-nuclearsafety-nuclearsupplychain-activity-7507378090604441600-y0zg" target="_blank" rel="noopener noreferrer">original LinkedIn discussion: Passing an Audit Does Not, by Itself, Demonstrate Nuclear Delivery Readiness</a>.</li>
+      </ul>
+      <p class="small-note">This article presents an independent professional interpretation and an illustrative assessment approach. The three-level model, four readiness gates and three illustrative decision labels are not IAEA, ISO, ASME or CSA requirements. The article does not replace applicable laws, licence conditions, approved QA programmes, supplier qualifications or contractual obligations. National terminology and safety classification practices vary.</p>
+    </section>
+    <aside class="byline">
+      <h2>About the author</h2>
+      <p><strong>Ievgen Petrenko</strong> is a senior nuclear professional with experience spanning multidisciplinary engineering, project and programme delivery, nuclear safety, regulatory interfaces, supplier management and quality assurance across international nuclear projects.</p>
+      <div class="actions">
+        <a class="action primary" href="../#insights">More insights</a>
+        <a class="action secondary" href="https://www.linkedin.com/in/ievgen-petrenko-a1639522a/" target="_blank" rel="me noopener noreferrer">LinkedIn profile</a>
+        <a class="action secondary" href="mailto:petrenko.eugene@gmail.com">Contact</a>
+      </div>
+    </aside>
+  </article></main>
+  <footer>&copy; 2026 Ievgen Petrenko</footer>
+</body>
+</html>
