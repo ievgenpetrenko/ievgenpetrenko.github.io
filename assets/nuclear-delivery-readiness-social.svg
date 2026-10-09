@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Passing an Audit Does Not Demonstrate Nuclear Delivery Readiness by Itself</title>
+<desc id="desc">Graphic introducing three levels of supplier readiness from system exists through system works to scope-specific delivery.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#142633"/><stop offset="0.74" stop-color="#243d49"/><stop offset="1" stop-color="#50445f"/></linearGradient></defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<rect x="0" y="0" width="1200" height="13" fill="#d17730"/>
+<circle cx="1074" cy="106" r="193" fill="#ded0e8" opacity=".08"/>
+<text x="65" y="75" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#e7cda9" letter-spacing="2.4">NUCLEAR PROGRAMME DELIVERY / INSIGHT</text>
+<text x="64" y="153" font-family="Arial" font-size="52" font-weight="700" fill="#ffffff">PASSING AN AUDIT DOES NOT,</text>
+<text x="64" y="217" font-family="Arial" font-size="52" font-weight="700" fill="#ffffff">BY ITSELF, DEMONSTRATE</text>
+<text x="64" y="281" font-family="Arial" font-size="52" font-weight="700" fill="#f6c59c">NUCLEAR DELIVERY READINESS.</text>
+<text x="65" y="336" font-family="Arial" font-size="24" fill="#f0e9e6">From compliance evidence to scope-specific capability.</text>
+<rect x="65" y="378" width="331" height="136" rx="12" fill="#eee7f2"/>
+<rect x="411" y="378" width="331" height="136" rx="12" fill="#f5e1d4"/>
+<rect x="757" y="378" width="378" height="136" rx="12" fill="#d8edeb"/>
+<text x="90" y="415" font-family="Arial" font-size="18" font-weight="700" fill="#6c5684">01 / COMPLIANCE</text>
+<text x="90" y="460" font-family="Arial" font-size="27" font-weight="700" fill="#142633">SYSTEM EXISTS</text>
+<text x="90" y="486" font-family="Arial" font-size="16" fill="#455565">Controlled requirements</text>
+<text x="436" y="415" font-family="Arial" font-size="18" font-weight="700" fill="#a75c2a">02 / IMPLEMENTATION</text>
+<text x="436" y="460" font-family="Arial" font-size="27" font-weight="700" fill="#142633">SYSTEM WORKS</text>
+<text x="436" y="486" font-family="Arial" font-size="16" fill="#455565">Demonstrated in work</text>
+<text x="782" y="415" font-family="Arial" font-size="18" font-weight="700" fill="#176c72">03 / EXECUTION</text>
+<text x="782" y="457" font-family="Arial" font-size="25" font-weight="700" fill="#142633">SCOPE-SPECIFIC</text>
+<text x="782" y="485" font-family="Arial" font-size="25" font-weight="700" fill="#142633">DELIVERY CAPABILITY</text>
+<text x="65" y="584" font-family="Arial" font-size="21" font-weight="700" fill="#ffffff">IEVGEN PETRENKO</text>
+<text x="1135" y="584" font-family="Arial" font-size="20" text-anchor="end" fill="#e5e9ed">9 OCTOBER 2026</text>
+</svg>
