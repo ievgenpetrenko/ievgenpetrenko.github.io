@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ievgenpetrenko.github.io/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-29</lastmod>
   </url>
   <url>
     <loc>https://ievgenpetrenko.github.io/insights/polska-buduje-ekosystem-jadrowy.html</loc>
@@ -44,4 +44,8 @@
     <loc>https://ievgenpetrenko.github.io/insights/classification-to-contract-gap-nuclear-delivery.html</loc>
     <lastmod>2026-10-22</lastmod>
   </url>
+  <url>
+  <loc>https://ievgenpetrenko.github.io/insights/beyond-parallel-quality-systems-nuclear-assurance.html</loc>
+  <lastmod>2026-10-29</lastmod>
+</url>
 </urlset>
