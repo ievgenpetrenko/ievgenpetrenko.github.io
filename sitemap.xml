@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ievgenpetrenko.github.io/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://ievgenpetrenko.github.io/insights/polska-buduje-ekosystem-jadrowy.html</loc>
@@ -45,13 +45,11 @@
     <lastmod>2026-10-22</lastmod>
   </url>
   <url>
-  <loc>https://ievgenpetrenko.github.io/insights/beyond-parallel-quality-systems-nuclear-assurance.html</loc>
-  <lastmod>2026-10-29</lastmod>
-</url>
-  
-<url>
-  <loc>https://ievgenpetrenko.github.io/insights/czego-nie-da-sie-kupic-w-kontrakcie-epc.html</loc>
-  <lastmod>2026-11-14</lastmod>
-</url>
-
+    <loc>https://ievgenpetrenko.github.io/insights/beyond-parallel-quality-systems-nuclear-assurance.html</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://ievgenpetrenko.github.io/insights/czego-nie-da-sie-kupic-w-kontrakcie-epc.html</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
 </urlset>
